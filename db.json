@@ -1,5 +1,5 @@
 {
-  "search": [ { "text": "upper_25", "value": 1}, { "text": "upper_75", "value": 2} ],
+  "search": ["upper_25","upper_50","upper_75","upper_90","upper_95"],
   "query": {
     "columns":[
       {"text":"Time","type":"time"},
