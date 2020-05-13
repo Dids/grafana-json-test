@@ -2,28 +2,28 @@
   "search": ["upper_25","upper_50","upper_75","upper_90","upper_95"],
   "query": [
     {
-      "target":"pps in",
+      "target": "pps in",
       "datapoints":[
         [622,1450754160000],
         [365,1450754220000]
       ]
     },
     {
-      "target":"pps out",
+      "target": "pps out",
       "datapoints":[
         [861,1450754160000],
         [767,1450754220000]
       ]
     },
     {
-      "target":"errors out",
+      "target": "errors out",
       "datapoints":[
         [861,1450754160000],
         [767,1450754220000]
       ]
     },
     {
-      "target":"errors in",
+      "target": "errors in",
       "datapoints":[
         [861,1450754160000],
         [767,1450754220000]
