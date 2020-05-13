@@ -1,18 +1,35 @@
 {
   "search": ["upper_25","upper_50","upper_75","upper_90","upper_95"],
-  "query": {
-    "columns":[
-      {"text":"Time","type":"time"},
-      {"text":"Country","type":"string"},
-      {"text":"Number","type":"number"}
-    ],
-    "rows":[
-      [1234567,"SE",123],
-      [1234567,"DE",231],
-      [1234567,"US",321]
-    ],
-    "type":"table"
-  },
+  "query": [
+    {
+      "target":"pps in",
+      "datapoints":[
+        [622,1450754160000],
+        [365,1450754220000]
+      ]
+    },
+    {
+      "target":"pps out",
+      "datapoints":[
+        [861,1450754160000],
+        [767,1450754220000]
+      ]
+    },
+    {
+      "target":"errors out",
+      "datapoints":[
+        [861,1450754160000],
+        [767,1450754220000]
+      ]
+    },
+    {
+      "target":"errors in",
+      "datapoints":[
+        [861,1450754160000],
+        [767,1450754220000]
+      ]
+    }
+  ],
   "annotations": [
     {
       "text": "text shown in body",
